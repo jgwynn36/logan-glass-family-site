@@ -1,7 +1,9 @@
 <template>
   <div id="app">
+    <Navigation></Navigation>
     <img src="./assets/familyReunionLogo.jpeg">
     <router-view/>
+
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Nav Bar</h2>
+      <h2>Logan & Glass Reunion Site</h2>
         <nav>
             <router-link class="spacing" v-for="routes in links"
             v-bind:key="routes.id"
@@ -17,21 +17,16 @@ export default {
       links: [
         {
           id: 0,
-          text: 'Hello World',
-          page: '/HelloWorld'
-        },
-        {
-          id: 1,
           text: 'Home',
           page: '/Home'
         },
         {
-          id: 2,
+          id: 1,
           text: 'About',
           page: '/About'
         },
         {
-          id: 3,
+          id: 2,
           text: 'Contact',
           page: '/Contact'
         }
@@ -43,6 +38,23 @@ export default {
 
 <style>
 .spacing {
-    Margin-right: 10px;
-}
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  h2 {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  }
 </style>

@@ -1,34 +1,17 @@
 <template>
-  <v-footer
-    dark
-    padless
-  >
-    <v-card
-      class="flex"
-      flat
-      tile
-    >
-      <v-card-title class="teal">
-        <strong class="subheading">Get connected with us on social networks!</strong>
-
-        <v-spacer></v-spacer>
-
-        <v-btn
-          v-for="icon in icons"
-          :key="icon"
-          class="mx-4"
-          dark
-          icon
-        >
-          <v-icon size="24px">{{ icon }}</v-icon>
-        </v-btn>
-      </v-card-title>
-
-      <v-card-text class="py-2 white--text text-center">
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
-      </v-card-text>
-    </v-card>
-  </v-footer>
+  <footer>
+    <div class="footer">
+      <router-link class="logo-font" :to="{ name: 'home', params: {} }">
+        Logan Glass Family
+      </router-link>
+      <span class="attribution">
+        This is a family reunion website
+        <a rel="noopener noreferrer" target="blank" href="lgfamilyreunion.com"
+          >Logan Glass Family Reunion</a
+        >. Code &amp; design created by Jacqueline Gwynn.
+      </span>
+    </div>
+  </footer>
 </template>
 
 <script>
@@ -38,5 +21,13 @@ export default {
 </script>
 
 <style>
-
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
 </style>

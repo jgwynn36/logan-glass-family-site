@@ -1,6 +1,8 @@
 <template>
     <div>
-      <h2>Logan & Glass Reunion Site</h2>
+      <header>
+        <h2>Logan & Glass Reunion Site</h2>
+      </header>
         <nav>
             <router-link class="spacing" v-for="routes in links"
             v-bind:key="routes.id"
@@ -18,7 +20,7 @@ export default {
         {
           id: 0,
           text: 'Home',
-          page: '/Home'
+          page: '/'
         },
         {
           id: 1,
@@ -47,7 +49,7 @@ export default {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 100px;
   text-decoration: none;
   }
   h2 {

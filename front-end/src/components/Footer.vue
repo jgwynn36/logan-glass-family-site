@@ -2,13 +2,13 @@
   <footer>
     <div class="footer">
       <router-link class="logo-font" :to="{ name: 'home', params: {} }">
-        Logan Glass Family
+        Home Page
       </router-link>
       <span class="attribution">
-        This is a family reunion website
-        <a rel="noopener noreferrer" target="blank" href="lgfamilyreunion.com"
-          >Logan Glass Family Reunion</a
-        >. Code &amp; design created by Jacqueline Gwynn.
+        If you would like to contribute to this site please reach out to
+        <a rel="noopener noreferrer" target="blank" href="/Contact"
+          >Contact Us</a
+        >. This site was coded &amp; design created by Jacqueline Gwynn.
       </span>
     </div>
   </footer>

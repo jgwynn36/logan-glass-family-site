@@ -5,6 +5,7 @@ import News from '@/components/News'
 import Contact from '@/components/Contact'
 import Members from '@/components/Members'
 import Photos from '@/components/Photos'
+import Registration from '@/components/Registration'
 
 Vue.use(Router)
 
@@ -29,6 +30,11 @@ export default new Router({
       path: '/photos',
       name: 'Photos',
       component: Photos
+    },
+    {
+      path: '/registration',
+      name: 'Registration',
+      component: Registration
     },
     {
       path: '/contact',

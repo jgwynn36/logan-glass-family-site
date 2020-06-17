@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Contact Me</h1>
+        <h1>Contact Us</h1>
         <p>
             <ul>
                 <li>Email: {{email}}</li>
@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'Contact',
+  name: 'Contact Us',
   data () {
     return {
       email: /jacquelinegwynn@gmail.com/,

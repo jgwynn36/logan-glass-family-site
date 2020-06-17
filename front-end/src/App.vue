@@ -25,6 +25,5 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('./assets/family-tree-img.jpg');
-  background-repeat: no-repeat;
 }
 </style>

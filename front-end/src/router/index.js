@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/Home'
-import About from '@/components/About'
+import Welcome from '@/components/Welcome'
+import News from '@/components/News'
 import Contact from '@/components/Contact'
+import Members from '@/components/Members'
+import Photos from '@/components/Photos'
 
 Vue.use(Router)
 
@@ -10,17 +12,27 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Home',
-      component: Home
+      name: 'Welcome',
+      component: Welcome
     },
     {
-      path: '/about',
-      name: 'About',
-      component: About
+      path: '/news',
+      name: 'News',
+      component: News
+    },
+    {
+      path: '/members',
+      name: 'Reunion Committee',
+      component: Members
+    },
+    {
+      path: '/photos',
+      name: 'Photos',
+      component: Photos
     },
     {
       path: '/contact',
-      name: 'Contact',
+      name: 'Contact Us',
       component: Contact
     }
   ]

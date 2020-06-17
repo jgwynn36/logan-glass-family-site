@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <Navigation></Navigation>
-    <img src="./assets/family-tree-img.jpg" width="100%" height="100%">
     <Footer></Footer>
     <router-view/>
 
@@ -27,6 +26,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-image: url('./assets/family-tree-img.jpg');
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 </style>

@@ -1,12 +1,13 @@
 <template>
-    <div>
-        <h1>Logan & Glass Reunion Site
+    <div id="banner">
+      <div id="innerBanner">
+        <h1>Logan & Glass Reunion Site</h1>
+      </div>
         <nav>
             <router-link class="spacing" v-for="routes in links"
             v-bind:key="routes.id"
             :to="`${routes.page}`">{{routes.text}}</router-link>
         </nav>
-        </h1>
     </div>
 </template>
 
@@ -18,18 +19,33 @@ export default {
       links: [
         {
           id: 0,
-          text: 'Home',
+          text: 'Welcome',
           page: '/'
         },
         {
           id: 1,
-          text: 'About',
-          page: '/About'
+          text: 'New News',
+          page: '/News'
         },
         {
           id: 2,
-          text: 'Contact',
+          text: 'Reunion Committee Members',
+          page: '/Members'
+        },
+        {
+          id: 3,
+          text: 'Photos',
+          page: '/Photos'
+        },
+        {
+          id: 4,
+          text: 'Contact Us',
           page: '/Contact'
+        },
+        {
+          id: 5,
+          text: 'Registration',
+          page: '/Registration'
         }
       ]
     }
@@ -40,21 +56,16 @@ export default {
 <style>
 .spacing {
   list-style-type: none;
-  margin: 10px;
-  padding: 16px;
-  overflow: hidden;
+  padding: 20px;
   background-color: #333;
-  float: left;
-  display: block;
   color: white;
   text-align: center;
   text-decoration: none;
+  float: right;
   }
-  h1 {
-  background-color: green;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color:white;
-  }
+#banner {
+  height: 242px;
+  width: 1000px;
+  margin-top: 0px;
+}
 </style>

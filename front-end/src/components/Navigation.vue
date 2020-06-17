@@ -1,19 +1,26 @@
 <template>
-    <div id="banner">
-      <div id="innerBanner">
-        <h1>Logan & Glass Reunion Site</h1>
-      </div>
-        <nav>
-            <router-link class="spacing" v-for="routes in links"
-            v-bind:key="routes.id"
-            :to="`${routes.page}`">{{routes.text}}</router-link>
-        </nav>
+  <div id="banner">
+    <div id="innerBanner">
+      <h1>Logan & Glass Reunion Site</h1>
     </div>
+    <nav>
+      <router-link class="spacing" v-for="routes in links"
+      v-bind:key="routes.id"
+      :to="`${routes.page}`">{{routes.text}}</router-link>
+      <form>
+        <mdb-input type="text" class="text-white" placeholder="Search" aria-label="Search" label navInput waves waves-fixed/>
+      </form>
+    </nav>
+  </div>
 </template>
 
 <script>
+import {mdbInput} from 'mdbvue'
 export default {
   name: 'Navigation',
+  components: {
+    mdbInput
+  },
   data () {
     return {
       links: [
@@ -57,15 +64,15 @@ export default {
 .spacing {
   list-style-type: none;
   padding: 20px;
-  background-color: #333;
   color: white;
-  text-align: center;
   text-decoration: none;
-  float: right;
   }
-#banner {
-  height: 242px;
+#innerBanner {
   width: 1000px;
   margin-top: 0px;
+}
+#banner {
+  background-color: #333;
+  text-align: center;
 }
 </style>

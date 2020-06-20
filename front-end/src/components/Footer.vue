@@ -1,14 +1,12 @@
 <template>
   <footer>
     <div class="footer">
-      <router-link class="logo-font" :to="{ name: 'home', params: {} }">
-        Home Page
-      </router-link>
       <span class="attribution">
+        © 2020 L/G Family Reunion
         If you would like to contribute to this site please reach out to
         <a rel="noopener noreferrer" target="blank" href="/Contact"
           >Contact Us</a
-        >. This site was coded &amp; design created by Jacqueline Gwynn.
+        >.
       </span>
     </div>
   </footer>
@@ -22,13 +20,11 @@ export default {
 
 <style>
 .footer {
-  position: fixed;
-  left: 0;
   bottom: 0;
-  width: 100%;
-  background-color: gray;
-  color: white;
-  text-align: center;
-  padding: 30px;
+  background-image:url('../assets/reunion-poster-image.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: black;
+  padding: 10px;
 }
 </style>

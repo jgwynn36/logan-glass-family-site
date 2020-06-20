@@ -1,7 +1,7 @@
 <template>
   <div id="banner">
     <div id="innerBanner">
-      <h1>Logan & Glass Reunion Site</h1>
+      <h1>Logan & Glass Family Reunion</h1>
     </div>
     <nav>
       <router-link class="spacing" v-for="routes in links"
@@ -64,15 +64,13 @@ export default {
 .spacing {
   list-style-type: none;
   padding: 20px;
-  color: white;
+  color: black;
   text-decoration: none;
   }
-#innerBanner {
-  width: 1000px;
-  margin-top: 0px;
-}
 #banner {
-  background-color: #333;
-  text-align: center;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-class-reunion-poster-image_133308.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: black;
 }
 </style>

@@ -1,9 +1,8 @@
 <template>
   <div id="app">
     <Navigation></Navigation>
-    <Footer></Footer>
     <router-view/>
-
+    <Footer></Footer>
   </div>
 </template>
 
@@ -24,6 +23,5 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./assets/family-tree-img.jpg');
 }
 </style>

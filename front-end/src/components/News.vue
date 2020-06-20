@@ -18,10 +18,14 @@ export default {
   name: 'News' // this is the name of the compnent
 }
 </script>
+
 <style>
 img {
   float:left;
   padding:40px;
+}
+h2 {
+  text-decoration: underline;
 }
 
 </style>

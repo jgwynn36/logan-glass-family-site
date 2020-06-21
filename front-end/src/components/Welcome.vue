@@ -1,9 +1,11 @@
 <template>
   <div class="body">
     <h1 id="pageTitle">Welcome Family!!</h1>
+    <span>{{moment(date).format('MMMM Do YYYY, h:mm:ss a')}}</span>
     <h2 class="glow">Update: 2020 Reunion has been cancelled due to covid-19</h2>
     <div class="content">
-      <h4>2021 reunion will be hosted in Williamsburg Virginia</h4>
+      <h4>The next reunion will be held on {{moment().add(399, 'days').calendar()}} in Williamsburg Virginia</h4>
+      <span>{{moment("20210724", "YYYYMMDD").fromNow()}} days left before reunion</span>
       <img src="../assets/williamsburg-img.jpeg" alt="Williamsburg">
       <p>The website has been created to provide the Logan Glass family with a way to share information about the 2021 Logan Glass Reunion. </p>
       <p>Apart from the reunion, this website allows our family to share memories. Some of my favorite memories are with my cousins are at the annual family reunions.  It is the one-time in the year that everyone can come together and reminisce about times in my grandmothers yard and hiding from bats under the light pole. </p>
@@ -17,6 +19,7 @@
 export default {
   name: 'Welcome' // this is the name of the component
 }
+
 </script>
 <style>
 .body {

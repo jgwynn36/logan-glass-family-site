@@ -10,6 +10,8 @@
   <li>Ashley Gwynn-Keene</li>
   <li>Jacqueline Gwynn</li>
   <li>Nancy Gwynn</li>
+  <li>Carlton Lanier</li>
+  <li>Leander & Loan Lanier</li>
   <li>Carolyn Troy</li>
 </div>
 </template>

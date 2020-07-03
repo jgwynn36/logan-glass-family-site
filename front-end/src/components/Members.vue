@@ -26,7 +26,7 @@
       <div class="column">
         <div class="w3-card-4">
           <h3>John Glass</h3>
-          <img src="" alt="Jacqueline Gwynn" width="100%">
+          <img src="../assets/family-tree-img.jpg" alt="John Glass" width="100%">
           <div class="w3-container w3-center">
             <p>Son of Mabel Glass. Grand son of Mary Logan Glass</p>
           </div>
@@ -60,9 +60,9 @@
         </div>
       </div>
       <div class="column">
-        <div class="w3-card-4" style="25%">
+        <div class="w3-card-4">
           <h3>Nancy Gwynn</h3>
-          <img src="../assets/nancy.jpeg" alt="Nancy Gwynn" width="100%">
+          <img src="../assets/mom.jpeg" alt="Nancy Gwynn" width="100%">
           <div class="w3-container w3-center">
             <p>Son of the late Obelia and Roosevelt Lanier.  Grand son of the late Mary Logan Glass.</p>
           </div>

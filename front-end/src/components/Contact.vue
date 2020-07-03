@@ -1,22 +1,28 @@
 <template>
-    <div>
-        <h1>Contact Us</h1>
-        <p>
-            <ul>
-                <li>Email: {{email}}</li>
-                <li>Website: {{web}}</li>
-            </ul>
-        </p>
-    </div>
+  <form class="contact-form" @submit.prevent="sendEmail">
+    <label>Name</label>
+    <input type="text" name="user_name">
+    <label>Email</label>
+    <input type="email" name="user_email">
+    <label>Message</label>
+    <textarea name="message"></textarea>
+    <input type="submit" value="Send">
+  </form>
 </template>
 
 <script>
+
+import emailjs from 'emailjs-com'
+
 export default {
-  name: 'Contact Us',
-  data () {
-    return {
-      email: /jacquelinegwynn@gmail.com/,
-      web: /www.lgfamily.com/
+  methods: {
+    sendEmail: (e) => {
+      emailjs.sendForm('LG_Form', 'contact_form', e.target, 'user_4BAboX5W7AjicClLYeJGA')
+        .then((result) => {
+          console.log('SUCCESS!', result.status, result.text)
+        }, (error) => {
+          console.log('FAILED...', error)
+        })
     }
   }
 }

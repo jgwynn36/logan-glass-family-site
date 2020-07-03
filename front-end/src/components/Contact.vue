@@ -1,5 +1,7 @@
 <template>
   <form class="contact-form" @submit.prevent="sendEmail">
+    <h1>Contact Form</h1>
+    <h3>Please fill out the form below and the committee will respond within 48 hours.  Thanks for you submission!!</h3>
     <label>Name</label>
     <input type="text" name="user_name">
     <label>Email</label>
@@ -27,3 +29,15 @@ export default {
   }
 }
 </script>
+<style>
+.contact-form {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 10px 200px;
+}
+label {
+  padding: 30px
+}
+body {
+  background-color: #ffffe0;
+}
+</style>

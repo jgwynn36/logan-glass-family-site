@@ -35,7 +35,7 @@ img {
   float: right;
 }
 .glow {
-  padding: 10px;
+  padding: 20px;
   font-size: 20px;
   color: #fff;
   background-color: black;

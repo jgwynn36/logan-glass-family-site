@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>Photo Gallery</h1>
-        <p>Here is some information.  This is the photos page</p>
+        <p>Coming Soon you will be able to view family photos here. </p>
     </div>
 </template>
 

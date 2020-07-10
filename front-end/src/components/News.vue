@@ -9,6 +9,12 @@
   <h4>Historical Williamsburg is the place to be in 2021 </h4>
   <h4>Make your plans to join US in 2021 </h4>
   <p>The reunion committee has started organizing and working on preliminary plans for the 2021 reunion. The reunion committee has created an awesome reunion itinerary which brings back two family favorites. </p>
+
+  <h4>Hotal Accommodations: </h4>
+  <img src="http://www.fortmagruderhotel.com/default-en.html" alt="hotel">
+  <p>Hotel price: </p>
+  <p>Deadline to make reservation </p>
+
   <h3>Come back to stay up on the latest reunion news. </h3>
 </div>
 </template>

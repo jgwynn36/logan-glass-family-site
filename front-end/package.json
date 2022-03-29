@@ -11,17 +11,17 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "emailjs-com": "^2.4.1",
+    "emailjs-com": "^2.6.4",
     "mdbvue": "^6.7.3",
-    "moment": "^2.27.0",
-    "vue": "^2.6.11",
+    "moment": "^2.29.1",
+    "vue": "^2.6.14",
     "vue-axios": "^2.1.5",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.5.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.4",
-    "babel-core": "^6.22.1",
-    "babel-eslint": "^8.2.1",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "babel-loader": "^7.1.1",
     "babel-plugin-syntax-jsx": "^6.18.0",
@@ -62,7 +62,7 @@
     "vue-loader": "^17.0.0",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.2",
-    "webpack": "^4.43.0",
+    "webpack": "^5.70.0",
     "webpack-bundle-analyzer": "^3.3.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^4.7.4",

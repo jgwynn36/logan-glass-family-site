@@ -13,7 +13,7 @@
   "dependencies": {
     "emailjs-com": "^2.6.4",
     "mdbvue": "^6.7.3",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "vue": "^2.6.14",
     "vue-axios": "^2.1.5",
     "vue-router": "^3.5.3"
